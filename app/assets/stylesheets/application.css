@@ -15,21 +15,25 @@
  */
 
 html{
+	background-color: black;
+}
+
+body{
 	background: url(/assets/space.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-body{
-	background-color: black;
 	overflow: hidden;
+	margin: 0;
 }
 
 .egg{
-	height: 20%;
-	position: absolute;
-	top: 40%;
-	left: 44%;
+	width: 100vw;
+	height: 100vh;
+	display: block;
+	object-fit: cover; /* NO IE SUPPORT */
+	-o-object-fit: cover;
+	-moz-object-fit: cover;
+	-webkit-object-fit: cover;
 }
