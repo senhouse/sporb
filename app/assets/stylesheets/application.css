@@ -15,10 +15,6 @@
  */
 
 html{
-	background-color: black;
-}
-
-body{
 	background: url(/assets/space.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -28,12 +24,45 @@ body{
 	margin: 0;
 }
 
+body{
+
+}
+
 .egg{
 	width: 100vw;
 	height: 100vh;
 	display: block;
-	object-fit: cover; /* NO IE SUPPORT */
+	object-fit: cover; /* NO IE SUPPORT, add logic for them... */
 	-o-object-fit: cover;
 	-moz-object-fit: cover;
 	-webkit-object-fit: cover;
+/*	transition: transform 1.5s ease .5s,
+							width 1.5s ease .5s,
+							height 1.5s ease .5s;
+	-o-transition: transform 1.5s ease .5s,
+							width 1.5s ease .5s,
+							height 1.5s ease .5s;
+	-moz-transition: transform 1.5s ease .5s,
+							width 1.5s ease .5s,
+							height 1.5s ease .5s;
+	-webkit-transition: transform 1.5s ease .5s,
+							width 1.5s ease .5s,
+							height 1.5s ease .5s;*/
+	cursor: pointer;
+	cursor: hand;
 }
+
+.title{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 4vw;
+	color: #173e43;
+	position: absolute;
+	top: 45%;
+	left: 46%;
+	z-index: 99;
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+
