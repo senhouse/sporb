@@ -33,8 +33,14 @@
 
 $(document).ready(function(){
 	$(".title,.egg").click(function(){
-		$(".title").fadeOut(1000);
+		$(".title").fadeOut(500);
 		$(".egg").fadeOut(1000);
+		$(".newegg,.answer").fadeIn(1000);
+		$(".newegg,.answer").click(function(){
+			$(this).fadeOut(500,function(){
+				$(this).fadeIn(500);
+			});
+		});
 	});
 });
 

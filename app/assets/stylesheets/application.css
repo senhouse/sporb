@@ -62,6 +62,34 @@ body{
 	z-index: 99;
 	cursor: pointer;
 	cursor: hand;
+/*	display: none;*/
+}
+
+.newegg{
+	width: 50vw;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.answer{
+	width: 45vw;
+	height: 25vh;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3vw;
+	color: #173e43;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	z-index: 99;
+	cursor: pointer;
+	cursor: hand;
+	display: none;
 }
 
 
